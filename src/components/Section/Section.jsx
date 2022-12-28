@@ -18,14 +18,14 @@ Section.propTypes = {
 
 export const FirstOption = ({ props }) => (
   <div>
-   <h1>Opcja bez return</h1>
+   <h1>bez return</h1>
   </div>
 );
 
 export const SecondOption = ({ props }) => {
   return (
     <div>
-      <h1>Opcja z return</h1>
+      <h1>z return</h1>
     </div>
   );
 };

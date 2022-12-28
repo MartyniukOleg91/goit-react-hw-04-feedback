@@ -1,56 +1,54 @@
+
 .feedbackBtn {
-  display: inline-flex;
+    display: inline-flex;
+    margin-left: 100px;
 }
 
 .feedbackBtn {
   align-items: center;
   background-color: #fff;
-  border: 2px solid #000;
+  border: 4px solid #000;
   box-sizing: border-box;
   color: #000;
   cursor: pointer;
   display: inline-flex;
   fill: #000;
-  font-family: Inter, sans-serif;
+  font-family: Inter,sans-serif;
   font-size: 16px;
   font-weight: 600;
   height: 48px;
   justify-content: center;
-  letter-spacing: -0.8px;
+  letter-spacing: -.8px;
   line-height: 24px;
   min-width: 140px;
   outline: 0;
   padding: 0 17px;
   text-align: center;
   text-decoration: none;
-  transition: all 0.3s;
+  transition: all .3s;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  border-radius: 50%;
+  background-color: rgb(124, 241, 14);
+  margin-left: 50px;
 }
 
-.feedbackBtn:focus {
+.feedbackBtn:focus {  
   color: #171e29;
+
 }
 
 .feedbackBtn:hover {
   border-color: #06f;
   color: #06f;
   fill: #06f;
+  
 }
 
 .feedbackBtn:active {
   border-color: #06f;
   color: #06f;
   fill: #06f;
-}
-
-.feedbackBtn:nth-of-type(even) {
-  margin: auto 5rem;
-}
-
-@media (min-width: 768px) {
-  .feedbackBtn {
-    min-width: 170px;
-  }
+    background-color: red;
 }

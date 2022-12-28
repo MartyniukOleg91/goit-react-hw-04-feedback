@@ -6,7 +6,9 @@
 
 .feedbackListItem {
   display: flex;
-  align-items: left;
+min-width: 480px;
+  align-items: center;
   font-size: 2.5rem;
   padding: 0.5rem;
+  border: 4px solid #000;
 }
